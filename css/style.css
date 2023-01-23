@@ -51,64 +51,16 @@ nav ul {
 
 main{
     background-color: #000;
-}
-
-.index{
-    width: 1fr;
-    height: 100%;
-    padding: 10px;
+    margin-top: 60px;
 }
 
 .card {
-    background-color: #fff;
-    color: #000;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    border-radius: 15px;
-    transition: 1s;
-    filter: grayscale(1);
-}
-
-.card:hover{
-    box-shadow: 5px 5px 5px 5px rgb(151, 151, 151);
-    filter: grayscale(0);
-}
-
-.card__body {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    align-items: center;
-}
-.card img {
     height: 100%;
-    width: 100%;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
 }
 
-.card a{
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 10px;
-    width: 155px;
-    background-color: #000;
-    color: #fff;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-self: flex-end;
-    transition: 1s;
-}
-
-.card a:hover{
-    transform: scale(1,1.2);
-    
-}
 
 .titulos {
-    width: 1fr;
+    width: 100%;
     height: 100%;
     padding: 10px;
 }
@@ -293,7 +245,15 @@ main{
     grid-area: d0;
 }
 
-
+.f1{
+    grid-area: f1;
+}
+.f2 {
+    grid-area: f2;
+}
+.f3 {
+    grid-area: f3;
+}
 .c6{
     grid-area: d6;
 }
@@ -458,11 +418,18 @@ nav ul {
         'g4 g5 g6';
     }
 
-.main{
+.titulo__card {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+    grid-template-areas: 
+    'd1 d2 d3'
+    'd1 d2 d3';
 }
+
+
+
+
 
     
     .grilla {

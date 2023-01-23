@@ -1,177 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>proyecto web</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
 
-
     <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../proyectoweb/index.html" class="nav_link">INICIO</a>
-                </li>
-                <li>
-                    <a href="./pages/records.html" class="nav_link">RECORDS</a>
-                </li>
-                <li>
-                    <a href="./pages/grid.html" class="nav_link">GRID</a>
-                </li>
-                <li>
-                    <a href="./pages/contacto.html" class="nav_link">CONTACTO</a>
-                </li>
-            </ul>
+        <nav class="navbar bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span class="second-color">MESSI</span>FAN</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><span class="second-color">MESSI</span>FAN
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/records.html">RECORDS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/sobremessi.html">
+                                    SOBRE MESSI
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./pages/contacto.html">
+                                    CONTACTO
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </nav>
     </header>
-<main class="main">
-    <section class="index">
-        <div class="card">
-        <img src="../proyectoweb/assets/messi campeon.jpg" alt="">
-            <div class="card__body">
-                <h1><span class="second-color">EL MEJOR JUGADOR</span> DE LA HISTORIA</h1>
-                <p>Lionel Andrés Messi Cuccittini (Rosario, 24 de junio de 1987), conocido como Leo Messi, es un futbolista argentino que juega<br> como delantero o centrocampista. Jugador histórico del Fútbol Club Barcelona, al que estuvo ligado veinte años,<br> desde 2021 integra el plantel del Paris Saint-Germain de la Ligue 1 de Francia.
-                Lorem ipsum dolor sit amet consectetur. adipisicing elit. Ducimus dolore impedit aliquam nulla et inventore reprehenderit, deserunt sint nobis iste sit odit iusto vero<br> provident maiores corporis illum rem neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, mollitia consectetur<br> vero ducimus quia nemo<br> quaerat quae accusantium, eum quam natus! Eum animi, sapiente nemo nisi suscipit exercitationem nobis vel?
-                </p>
-                <a href="" class="link">Hablar con messi</a>
+    <main class="main">
+        <section class="container mt-6 pt-5">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card p-2">
+                        <img src="./assets/messicopa.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-capitalize fs-5 fw-semibold">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card's content. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem odio iste,
+                                harum natus vitae quas reprehenderit atque, recusandae nulla velit ea consectetur
+                                deleniti excepturi! Harum natus aspernatur fuga veritatis cumque. Lorem ipsum dolor sit
+                                amet consectetur adipisicing elit. Consequatur harum beatae pariatur, inventore
+                                temporibus molestiae animi veniam architecto, voluptatibus illo, earum quo atque
+                                delectus nemo nobis omnis? Tempore, aliquam perspiciatis? Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Repudiandae placeat dolorum odio sint id, delectus
+                                consectetur vitae excepturi rem mollitia aperiam, esse repellat! In magni ipsam quisquam
+                                aut, debitis saepe. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                                consequuntur ipsum pariatur nam similique, ipsa corrupti vitae nemo quod optio iusto
+                                recusandae accusantium rem explicabo ut blanditiis? Dolor, assumenda quos?</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card p-2">
+                        <img src="../proyectoweb/assets/messi campeon.jpg" alt="">
+                        <div class="card__body">
+                            <h1><span class="second-color">EL MEJOR JUGADOR</span> DE LA HISTORIA</h1>
+                            <p class="text-capitalize fs-5 fw-semibold">Lionel Andrés Messi Cuccittini (Rosario, 24 de junio de 1987), conocido como Leo Messi,
+                                es un
+                                futbolista argentino que juega<br> como delantero o centrocampista. Jugador histórico
+                                del Fútbol
+                                Club Barcelona, al que estuvo ligado veinte años,<br> desde 2021 integra el plantel del
+                                Paris
+                                Saint-Germain de la Ligue 1 de Francia.
+                                Lorem ipsum dolor sit amet consectetur. adipisicing elit. Ducimus dolore impedit aliquam
+                                nulla
+                                et inventore reprehenderit, deserunt sint nobis iste sit odit iusto vero<br> provident
+                                maiores
+                                corporis illum rem neque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum,
+                                mollitia
+                                consectetur<br> vero ducimus quia nemo<br> quaerat quae accusantium, eum quam natus! Eum
+                                animi,
+                                sapiente nemo nisi suscipit exercitationem nobis vel?
+                            </p>
+                            <a href="./pages/contacto.html" class="btn btn-primary">Hablar con messi</a>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section class="titulos mt-5">
+            <h1><span class="second-color">TITULOS </span> DE MESSI</h1>
+            <div class="titulo__card">
+                <div class="titulo__card__body d1">
+                    <h2>maximo ganador de titulos individuales</h2>
+                    <p>
+                        A nivel individual, Leo Messi es el jugador más galardonado en la historia del fútbol
+                    </p>
+                    <ul>
+                        <li>
+                            9 MVP de la liga
+                        </li>
+                        <li>
+                            8 pichichis de la liga
+                        </li>
+                        <li>
+                            7 balones de oro
+                        </li>
+                        <li>
+                            6 botas de oro
+                        </li>
+                        <li>
+                            6 maximo goleador de la champions
+                        </li>
+                        <li>
+                            4 Onze d'Or
+                        </li>
+                        <li>
+                            2 mejor jugador de Europa
+                        </li>
+                        <li>
+                            1 premio the best
+                        </li>
+                        <li>
+                            1 FIFA World Player
+                        </li>
+                        <li>
+                            2 balon de oro del mundial
+                        </li>
+                        <li>
+                            1 MVP copa America
+                        </li>
+                        <li>
+                            1 FIFA FIFPro
+                        </li>
+                        <li>
+                            1 premio laureus
+                        </li>
+                        <li>
+                            1 golden boy
+                        </li>
+                        <li>
+                            1 trofeo Bravo
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="titulo__card__body d2">
+                    <h1>Uno de los maximos ganadores de titulos de la historia</h1>
+                    <p>
+                        Messi ha conquistado un total de 42 títulos oficiales a lo largo de su carrera: 35 con el FC
+                        Barcelona, dos con el PSG, tres con la selección argentina, uno con la selección argentina
+                        sub-20 y otro con la sub-20.
+                    </p>
+                    <ul>
+                        <li>
+                            10 ligas
+                        </li>
+                        <li>
+                            8 supercopas de españa
+                        </li>
+                        <li>
+                            7 copas del rey
+                        </li>
+                        <li>
+                            4 champions league
+                        </li>
+                        <li>
+                            3 mundiales de clubes
+                        </li>
+                        <li>
+                            3 supercopas de europa
+                        </li>
+                        <li>
+                            1 mundial
+                        </li>
+                        <li>
+                            1 ligue one
+                        </li>
+                        <li>
+                            1 supercopa de francia
+                        </li>
+                        <li>
+                            1 copa america
+                        </li>
+                        <li>
+                            1 finalissima
+                        </li>
+                        <li>
+                            1 mundial sub-20
+                        </li>
+                        <li>
+                            1 medalla de oro en los juegos olimpicos
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="titulo__card__body d3">
+                    <h1>
+                        Coronado como campeón del Mundo
+                    </h1>
+                    <p>
+                        Messi, uno de los dos únicos futbolistas que han marcado más de 100 goles en competiciones de
+                        clubes de la UEFA.
+                        El argentino se encuentra ahora en el París Saint-Germain después de haber bajado el telón de
+                        sus dos décadas en el Barcelona en verano de 2021.
+                        Los récords, los hitos y los logros únicos se suceden. Lorem ipsum dolor sit amet, consectetur
+                        adipisicing elit. Officia architecto cupiditate similique totam. Consectetur fuga perferendis
+                        tempora sequi quos voluptas iusto. Impedit quaerat nobis fugiat tempore? Quas, fuga cupiditate.
+                        Voluptate.
+                    </p>
+                </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h3>
+            redes sociales
+        </h3>
+        <div class="redes">
+            <a href="https://www.instagram.com/leomessi/" class="redesig">instagram</a>
+            <a href="https://twitter.com/WeAreMessi" class="redestw">twitter</a>
         </div>
-    </section>
+    </footer>
 
-    <section class="titulos">
-        <h1><span class="second-color">TITULOS </span> DE MESSI</h1>
-        <div class="titulo__card">
-            <div class="titulo__card__body d1">
-                <h2>maximo ganador de titulos individuales</h2>
-                <p>
-                    A nivel individual, Leo Messi es el jugador más galardonado en la historia del fútbol
-                </p>
-                <ul>
-                    <li>
-                        9 MVP de la liga
-                    </li>
-                    <li>
-                        8 pichichis de la liga
-                    </li>
-                    <li>
-                        7 balones de oro
-                    </li>
-                    <li>
-                        6 botas de oro
-                    </li>
-                    <li>
-                        6 maximo goleador de la champions
-                    </li>
-                    <li>
-                        4 Onze d'Or
-                    </li>
-                    <li>
-                        2 mejor jugador de Europa
-                    </li>
-                    <li>
-                        1 premio the best
-                    </li>
-                    <li>
-                        1 FIFA World Player
-                    </li>
-                    <li>
-                        2 balon de oro del mundial 
-                    </li>
-                    <li>
-                        1 MVP copa America
-                    </li>
-                    <li>
-                        1 FIFA FIFPro
-                    </li>
-                    <li>
-                        1 premio laureus
-                    </li>
-                    <li>
-                        1 golden boy
-                    </li>
-                    <li>
-                        1 trofeo Bravo
-                    </li>
-                </ul>
-            </div>
-
-
-            <div class="titulo__card__body d2">
-                <h1>Uno de los maximos ganadores de titulos de la historia</h1>
-                <p>
-                    Messi ha conquistado un total de 42 títulos oficiales a lo largo de su carrera: 35 con el FC Barcelona, dos con el PSG, tres con la selección argentina, uno con la selección argentina sub-20 y otro con la sub-20.
-                </p>
-                <ul>
-                    <li>
-                        10 ligas
-                    </li>
-                    <li>
-                        8 supercopas de españa
-                    </li>
-                    <li>
-                        7 copas del rey
-                    </li>
-                    <li>
-                        4 champions league
-                    </li>
-                    <li>
-                        3 mundiales de clubes
-                    </li>
-                    <li>
-                        3 supercopas de europa
-                    </li>
-                    <li>
-                        1 mundial
-                    </li>
-                    <li>
-                        1 ligue one
-                    </li>
-                    <li>
-                        1 supercopa de francia
-                    </li>
-                    <li>
-                        1 copa america
-                    </li>
-                    <li>
-                        1 finalissima
-                    </li>
-                    <li>
-                        1 mundial sub-20
-                    </li>
-                    <li>
-                        1 medalla de oro en los juegos olimpicos
-                    </li>
-                </ul>
-            </div>
-
-            <div class="titulo__card__body d3">
-            <h1>
-                Coronado como campeón del Mundo
-            </h1>
-            <p>
-                Messi, uno de los dos únicos futbolistas que han marcado más de 100 goles en competiciones de clubes de la UEFA.
-                El argentino se encuentra ahora en el París Saint-Germain después de haber bajado el telón de sus dos décadas en el Barcelona en verano de 2021.
-                Los récords, los hitos y los logros únicos se suceden. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia architecto cupiditate similique totam. Consectetur fuga perferendis tempora sequi quos voluptas iusto. Impedit quaerat nobis fugiat tempore? Quas, fuga cupiditate. Voluptate.
-            </p>
-        </div>
-
-    </section>
-</main>
-
-<footer class="footer">
-    <h3>
-        redes sociales
-    </h3>
-    <div class="redes">
-        <a href="https://www.instagram.com/leomessi/" class="redesig">instagram</a>
-        <a href="https://twitter.com/WeAreMessi" class="redestw">twitter</a>
-    </div>
-</footer>
-
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
