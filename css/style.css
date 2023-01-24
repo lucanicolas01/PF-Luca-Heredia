@@ -51,7 +51,7 @@ nav ul {
 
 main{
     background-color: #000;
-    margin-top: 60px;
+    margin-top: 55px;
 }
 
 .card {
@@ -150,10 +150,15 @@ main{
 }
 
 
+.carousel-p{
+    padding: 10px;
+}
 
-
-
-
+.carousel-p img{
+    object-fit: contain;
+    height: 90vh; 
+    width: 100%;
+}
 
 
 
@@ -321,7 +326,7 @@ form {
 }
 .footer{
     color: rgb(0, 0, 0);
-    height:100px;
+    height:130px;
     width: 100%;
     display: flex;
     flex-direction: column;
