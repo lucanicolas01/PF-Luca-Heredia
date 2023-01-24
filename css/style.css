@@ -49,10 +49,14 @@ nav ul {
     border-bottom: solid #000 1px;
 }
 
-main{
+main {
+    background-color: #000;
+}
+.main{
     background-color: #000;
     margin-top: 55px;
 }
+
 
 .card {
     height: 100%;
@@ -293,6 +297,7 @@ main{
 .main__form {
     display: flex;
     justify-content: center;
+    padding: 10px;
 }
 .formulario{
     color: #fff;
