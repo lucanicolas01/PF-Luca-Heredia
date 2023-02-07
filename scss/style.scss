@@ -1,0 +1,15 @@
+@import "./base/vars";
+@import "./base/reset";
+@import "./layout/index";
+@import "./layout/records";
+@import "./layout/sobremessi";
+@import "./layout/contacto";
+@import "./componentes/gridarea";
+@import "./componentes/footer";
+@import "./componentes/bootstrap";
+@import url(../assets/Bebas_Neue.zip);
+@font-face {
+    font-family: bebas;
+    src: url(../assets/Bebas_Neue.zip);
+    font-family: 'Bebas Neue';
+}

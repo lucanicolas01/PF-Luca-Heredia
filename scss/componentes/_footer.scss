@@ -1,0 +1,35 @@
+.footer{
+    height:130px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #00bdad;
+    background-color: #000;
+    font-size: 24px;
+    a {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(12, 12, 12);
+        width: 100px;
+        gap: 10px;
+        transition: 0.5s;
+        &:hover {
+            transform: scale(1, 1.05);
+        }
+    }
+}
+
+
+.redesig {
+    color: #dc143c;
+    text-decoration: none;
+}
+
+.redestw {
+    color: #148cdc;
+    text-decoration: none;
+}
+.redes {
+    display: flex;
+    flex-direction: column;
+}
