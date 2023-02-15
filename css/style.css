@@ -243,34 +243,25 @@ form {
   grid-area: c0; }
 
 .footer {
-  height: 130px;
+  height: 100%;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  color: #00bdad;
-  background-color: #000;
-  font-size: 24px; }
-  .footer a {
+  text-transform: uppercase;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #00d9ff; }
+  .footer h3 {
     display: flex;
+    align-items: center;
     justify-content: center;
-    background-color: #0c0c0c;
-    width: 100px;
-    gap: 10px;
-    transition: 0.5s; }
-    .footer a:hover {
-      transform: scale(1, 1.05); }
-
-.redesig {
-  color: #dc143c;
-  text-decoration: none; }
-
-.redestw {
-  color: #148cdc;
-  text-decoration: none; }
-
-.redes {
-  display: flex;
-  flex-direction: column; }
+    font-size: 40px; }
+  .footer .footer__redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around; }
+  .footer a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px; }
 
 .card {
   height: 100%; }
