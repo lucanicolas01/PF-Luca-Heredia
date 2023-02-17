@@ -248,7 +248,7 @@ form {
   text-transform: uppercase;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #00d9ff; }
+  background-image: linear-gradient(to left, white, #0099ff); }
   .footer h3 {
     display: flex;
     align-items: center;
@@ -261,7 +261,10 @@ form {
   .footer a {
     text-decoration: none;
     color: #000000;
-    font-size: 20px; }
+    font-size: 20px;
+    transition: 0.5s; }
+    .footer a:hover {
+      transform: scale(1.2, 1); }
 
 .card {
   height: 100%; }
